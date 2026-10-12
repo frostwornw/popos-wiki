@@ -1,5 +1,8 @@
 site_name: "Pop!_OS Unofficial Wiki"
-site_url: "https://github.io"
+site_url: "https://frostwornw.github.io/popos-wiki/"
+repo_name: "frostwornw/popos-wiki"
+repo_url: "https://github.com/frostwornw/popos-wiki"
+edit_uri: "edit/main/docs/"
 
 theme:
   name: material
@@ -31,7 +34,7 @@ theme:
 
 plugins:
   - search
+
 nav:
   - 'Главная': index.md
   - 'Гейминг и Графика': gaming.md
-
