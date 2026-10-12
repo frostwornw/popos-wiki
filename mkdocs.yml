@@ -1,0 +1,37 @@
+site_name: "Pop!_OS Unofficial Wiki"
+site_url: "https://github.io"
+
+theme:
+  name: material
+  language: ru
+  palette:
+    # Светлая тема (в стиле оригинального светлого режима Pop!_OS)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Включить тёмную тему COSMIC
+    # Тёмная тема (фирменный стиль Pop!_OS / COSMIC)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Включить светлую тему Pop
+  
+  features:
+    - navigation.tabs          # Верхнее горизонтальное меню
+    - navigation.sections      # Разделы в боковом меню
+    - navigation.expand        # Автоматически разворачивать меню
+    - search.suggest           # Умные подсказки при поиске
+    - search.highlight         # Подсветка найденных слов
+
+plugins:
+  - search
+nav:
+  - 'Главная': index.md
+  - 'Гейминг и Графика': gaming.md
+
